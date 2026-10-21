@@ -1,0 +1,117 @@
+body {
+    background-color: #111111;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #d4af37;
+}
+
+h2 {
+    color: #d4af37;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #080808;
+    color: #aaaaaa;
+}
+
+a {
+    color: #d4af37;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.botao-agendamento {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #111111;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.botao-agendamento:hover {
+    background-color: #ffffff;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+section {
+     padding: 30px;
+}
+
+#servicos article {
+    background-color: #222222;
+    padding: 30px;
+    border-radius: 12px;
+    flex: 1;
+    transition: background-color 0.3s ease;
+}
+
+#servicos article:hover {
+    background-color: #333333;
+
+}
+
+.lista-servicos {
+    display: flex;
+    gap: 20px;
+    
+}
+
+@media (max-width: 768px) {
+    .lista-servicos {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+    }
+}
+
+
