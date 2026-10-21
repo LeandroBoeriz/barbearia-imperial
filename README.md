@@ -1,2 +1,2 @@
 # barbearia-imperial
-site teste 
+Projeto desenvolvido com HTML5 e CSS3.
