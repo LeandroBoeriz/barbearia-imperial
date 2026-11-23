@@ -1,6 +1,8 @@
 # Barbearia Imperial
 
-Site fictício de uma barbearia, desenvolvido para praticar HTML5 e CSS3.
+**Em desenvolvimento** · [Acessar a demonstração](https://leandroboeriz.github.io/barbearia-imperial/)
+
+Site responsivo em HTML e CSS para uma barbearia fictícia. A versão atual apresenta serviços, preços, horários e um link demonstrativo para WhatsApp.
 
 ## Sobre o projeto
 
@@ -20,10 +22,6 @@ A Barbearia Imperial é uma página institucional que apresenta os serviços, pr
 - Layout responsivo.
 - Botão de agendamento.
 - Link para WhatsApp com número demonstrativo.
-
-## Visualizar o projeto
-
-https://leandroboeriz.github.io/barbearia-imperial/
 
 ## Status
 
